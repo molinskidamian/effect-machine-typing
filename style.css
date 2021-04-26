@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 *, *:before, *:after{
   box-sizing: border-box;
@@ -32,8 +34,10 @@
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Fredericka the Great', cursive; */
   font-size: 16px;
   background-color: var(--main-bg);
   color: var(--main-color-font-primary);
@@ -115,3 +119,33 @@ button:hover {
 h2 {
   margin: 30px;
 }
+
+.actions{
+  padding: 30px;
+  text-align: right;
+}
+
+.wrapper {
+  /* outline: 1px solid red; */
+  margin: 0 auto;
+  padding: 30px;
+  width: 300px;
+  border: 1px solid var(--main-color-border);
+  border-radius: var(--main-border-radius);
+  background-color: var(--input-color-bg);
+  /* color: var(--main-color-font-primary); */
+  line-height: 1.3rem;
+  letter-spacing: 1px;
+  /* color: green; */
+}
+
+/* .caret {
+  color: var(--main-color-font-primary);
+  opacity: 0;
+  transition: .2s;
+}
+
+.cursor .active {
+  opacity: 1;
+  color: var(--main-color-font-primary);
+} */
