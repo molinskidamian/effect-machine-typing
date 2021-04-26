@@ -126,7 +126,6 @@ h2 {
 }
 
 .wrapper {
-  /* outline: 1px solid red; */
   margin: 0 auto;
   padding: 30px;
   width: 300px;
@@ -139,13 +138,14 @@ h2 {
   /* color: green; */
 }
 
-/* .caret {
-  color: var(--main-color-font-primary);
-  opacity: 0;
+.caret {
+  opacity: 1;
   transition: .2s;
+  display: inline-block;
+  background-color: var(--main-color-font-primary);
+  width: 10px;
 }
 
-.cursor .active {
-  opacity: 1;
-  color: var(--main-color-font-primary);
-} */
+.active {
+  opacity: 0;
+}
